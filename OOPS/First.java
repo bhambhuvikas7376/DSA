@@ -19,7 +19,7 @@ package OOPS;
 //}
 public class First {
 	
-	public void First()
+	public  First()
 	{
 		System.out.println("constructer");
 	}
