@@ -40,7 +40,6 @@ public class First {
 	}
 public static void main(String[] args) {
 	First sc=new First();
-	sc.First();
 	sc.mymethod();
 	
 }
