@@ -11,6 +11,7 @@ public class Hiver {
 			return(soldiers(n-1, k)+ k- 1)% n+1;
 	}
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
 		System.out.println("number of soldiers in  camp");

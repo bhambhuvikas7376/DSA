@@ -1,10 +1,11 @@
 package practice;
 
 import java.util.ArrayList;
-import java.util.List;
+//import java.util.List;
 
 public class function {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 	     ArrayList<Integer> arr=new ArrayList<>(5);
 	     arr.add(1);
@@ -17,6 +18,7 @@ public class function {
 
 	}
 
+	@SuppressWarnings("unused")
 	private static void function1(ArrayList<Integer> arr, int element, int position) {
 	       arr.set(position, element);
 	       

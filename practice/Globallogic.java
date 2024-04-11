@@ -1,11 +1,12 @@
 package practice;
 
-import java.lang.reflect.Array;
+//import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Globallogic {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		

@@ -2,6 +2,7 @@ package SingletonDesignPattern;
 
 public class SingletonLazyType {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Abd obj1=Abd.getInstance();
 	}

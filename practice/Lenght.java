@@ -2,6 +2,7 @@ package practice;
 
 public class Lenght {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		String s="vikas";
 		
