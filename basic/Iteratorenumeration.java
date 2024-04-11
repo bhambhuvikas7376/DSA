@@ -7,6 +7,7 @@ public class Iteratorenumeration {
     	medium,
     	high
     }
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		level i=level.medium;
 		System.out.println(i);

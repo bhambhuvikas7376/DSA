@@ -1,6 +1,6 @@
 package Arrays;
 import java.util.*;
-import java.util.Collections;
+//import java.util.Collections;
 public class SortingofArrayDependingonFrequencyofElements {
 
 	public static void main(String[] args) {

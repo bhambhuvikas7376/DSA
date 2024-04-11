@@ -4,7 +4,7 @@ import java.util.*;
 public class practiceprogrames {
 
 	public static void main(String[] args) {
-		int k=6;
+		
 		int[] arr= {0,1,1,0,0,2,2,1,0,1};
 	   
 	     int[] c=two(arr);

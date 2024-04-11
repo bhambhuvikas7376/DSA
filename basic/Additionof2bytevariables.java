@@ -11,7 +11,7 @@ public class Additionof2bytevariables {
 		byte a=1;
 		byte b=2;
 		
-		byte c =a+b;  // + apply minimum on int automatically covert into int 
+		//byte c =a+b;   + apply minimum on int automatically covert into int 
 		byte d = (byte)(a+b);
 		System.out.println(d);
 		

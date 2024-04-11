@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class tOOGLEeachword {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
@@ -16,7 +17,7 @@ public class tOOGLEeachword {
 			i++;
 		}
 		
-		s=s.join(" ", s1);
+		s=String.join(" ", s1);
 		System.out.println(s);
 	}
 

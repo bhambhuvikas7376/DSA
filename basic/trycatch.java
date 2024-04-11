@@ -1,9 +1,10 @@
 package basic;
 
-import java.security.InvalidAlgorithmParameterException;
+//import java.security.InvalidAlgorithmParameterException;
 
 public class trycatch {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		try {
 			foo("hello");

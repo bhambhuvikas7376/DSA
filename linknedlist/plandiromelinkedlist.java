@@ -1,6 +1,6 @@
 package linknedlist;
 
-import java.util.HashSet;
+//import java.util.HashSet;
 
 public class plandiromelinkedlist {
 
@@ -69,6 +69,7 @@ public class plandiromelinkedlist {
 		
 	}
 
+	@SuppressWarnings("unused")
 	private static boolean palindrome(Node head) {
 		Node mid=middle(head);
 		Node sh=reverse(mid.next);

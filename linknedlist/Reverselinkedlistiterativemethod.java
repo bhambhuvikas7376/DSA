@@ -45,6 +45,7 @@ public class Reverselinkedlistiterativemethod {
 		
 	}
 
+	@SuppressWarnings("unused")
 	private static void removeduplicate(Node head) {
 		HashSet<Integer> set=new HashSet<>();
 		
@@ -69,6 +70,7 @@ public class Reverselinkedlistiterativemethod {
 		
 	}
 
+	@SuppressWarnings("unused")
 	private static Node recursionrecursive(Node head) {
 		if(head==null || head.next==null)
 		{
@@ -95,6 +97,7 @@ public class Reverselinkedlistiterativemethod {
 		
 	}
 
+	@SuppressWarnings("unused")
 	private static void reverse(Node head) {
 		if(head==null || head.next==null)
 		{

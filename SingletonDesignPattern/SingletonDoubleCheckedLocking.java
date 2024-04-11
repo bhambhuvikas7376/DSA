@@ -7,6 +7,7 @@ public class SingletonDoubleCheckedLocking {
 
 		Thread t1=new Thread(new Runnable() {
 
+			@SuppressWarnings("unused")
 			public void run() {
           	   Db1 obj1=Db1.getInstance();
 			}
@@ -14,6 +15,7 @@ public class SingletonDoubleCheckedLocking {
 		
 		Thread t2=new Thread(new Runnable() {
 
+			@SuppressWarnings("unused")
 			public void run() {
           	   Db1 obj2=Db1.getInstance();
 			}

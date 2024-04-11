@@ -1,6 +1,6 @@
 package Comparablecomparator;
 
-import java.util.*;
+//import java.util.*;
 
 public class laptop implements Comparable<laptop>  {
 	private String brand;

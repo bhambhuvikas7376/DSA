@@ -7,7 +7,7 @@ public class Lightandwonder {
 	public static void main(String[] args) {
 		Integer[] a= {2,2,3,1,1};
 		List<Integer> list=Arrays.asList(a);
-		List<Integer> list1=sort(list);
+		//List<Integer> list1=sort(list);
 		  Integer[] a1 = list.toArray(new Integer[0]);
 		System.out.println(Arrays.toString(a1));
 		HashMap<Integer,Integer> hashmap=new HashMap<>();
@@ -28,6 +28,7 @@ public class Lightandwonder {
       
 	}
            
+	@SuppressWarnings("unused")
 	private static List<Integer> sort(List<Integer> list) {
 		Map<Integer,Integer> map=new HashMap<>();
 		

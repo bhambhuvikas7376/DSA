@@ -6,6 +6,7 @@ public class SingletonSynchronizedgetInstance {
 		
 		Thread t1=new Thread(new Runnable() {
 
+			@SuppressWarnings("unused")
 			public void run() {
           	   Db obj1=Db.getInstance();
 			}
@@ -13,6 +14,7 @@ public class SingletonSynchronizedgetInstance {
 		
 		Thread t2=new Thread(new Runnable() {
 
+			@SuppressWarnings("unused")
 			public void run() {
           	   Db obj2=Db.getInstance();
 			}

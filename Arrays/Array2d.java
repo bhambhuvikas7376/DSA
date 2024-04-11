@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Array2d {
 
+	@SuppressWarnings({ "unused", "resource" })
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int[][] arr = {{1,2,3},{2,3,4},{3,4,5,6},{3,5,6}};

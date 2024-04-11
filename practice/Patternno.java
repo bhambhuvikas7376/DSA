@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Patternno {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner sc=new Scanner(System.in);
 		int n,sum;
 		n=sc.nextInt();

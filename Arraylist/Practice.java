@@ -1,8 +1,7 @@
 package Arraylist;
 
 import java.util.*;
-import java.awt.SystemColor;
-import java.io.*;
+
 
 
 public class Practice {

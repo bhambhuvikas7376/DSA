@@ -19,6 +19,11 @@ package OOPS;
 //}
 public class First {
 	
+	public void First()
+	{
+		System.out.println("constructer");
+	}
+	
 	public void mymethod()
 	{
 		System.out.println("method");
@@ -27,10 +32,7 @@ public class First {
 		System.out.println("x");
 	}
 	
-	public void First()
-	{
-		System.out.println("constructer");
-	}
+	
 	
 	static
 	{

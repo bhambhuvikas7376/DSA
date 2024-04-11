@@ -2,6 +2,7 @@ package Strings;
 
 public class Substringpalindromecheck {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 	 String str="abc";
 	 char[] ch=str.toCharArray();

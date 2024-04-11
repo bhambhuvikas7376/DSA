@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Singledigit {
 
-	public static void main(String[] args) {
+	@SuppressWarnings("resource")
+    public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int M=sc.nextInt();
 		int n = (int)Math.pow(M, 2);
@@ -24,6 +25,6 @@ public class Singledigit {
 		}
 		
 
-	}
+	
 
 

@@ -11,6 +11,7 @@ public class STATIC {
 			System.out.println("hello world");
 			b=a*4;
 		}
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		STATIC sc=new STATIC();
 		//System.out.println(sc.a+ " " +sc.b);

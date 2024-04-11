@@ -10,17 +10,17 @@ public class quicksort {
 		int l=0;
 		int h=ar.length-1;
 		
-		quicksort(ar,l,h);
+		quicksortt(ar,l,h);
 		System.out.println(Arrays.toString(ar));
 
 	}
 
-	private static void quicksort(int[] ar, int l, int h) {
+	private static void quicksortt(int[] ar, int l, int h) {
 		if(l<h)
 		{
 			int pi=partition(ar,l,h);
-			quicksort(ar,l,pi-1);
-			quicksort(ar,pi+1,h);
+			quicksortt(ar,l,pi-1);
+			quicksortt(ar,pi+1,h);
 		}
 		
 	}

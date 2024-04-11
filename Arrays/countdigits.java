@@ -6,11 +6,11 @@ public class countdigits {
 		int num=5678;
 //		int s=digits(num);
 //		System.out.println(s);
-		int s = countdigits(num);
+		int s = countdigitts(num);
 		System.out.println(s);
 	}
 
-	private static int countdigits(int num) {
+	private static int countdigitts(int num) {
 		int count=0;
 		while(num>0)
 		{
