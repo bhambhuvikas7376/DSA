@@ -8,6 +8,7 @@ public static void main(String[] args) {
     System.out.println(s.strip());
     System.out.println(s.stripLeading());
     System.out.println(s.stripTrailing());
+    //s.replaceAll("//s+","");
 }
     
 }
