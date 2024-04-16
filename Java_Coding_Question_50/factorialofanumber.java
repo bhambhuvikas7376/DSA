@@ -9,6 +9,7 @@ public class factorialofanumber {
 
         System.out.println(fact(n));
         System.out.println(fact1(n));
+        sc.close();
     }
 
     private static int fact1(int n) {
